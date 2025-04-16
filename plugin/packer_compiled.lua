@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "/home/kissanisi/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
   ale = {
     loaded = true,
     path = "/home/kissanisi/.local/share/nvim/site/pack/packer/start/ale",
@@ -177,6 +182,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kissanisi/.local/share/nvim/site/pack/packer/start/tree-setter",
     url = "https://github.com/filNaj/tree-setter"
+  },
+  ["vim-be-good"] = {
+    loaded = true,
+    path = "/home/kissanisi/.local/share/nvim/site/pack/packer/start/vim-be-good",
+    url = "https://github.com/ThePrimeagen/vim-be-good"
   },
   ["vim-fugitive"] = {
     loaded = true,
